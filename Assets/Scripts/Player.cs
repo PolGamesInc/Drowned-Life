@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float SpeedSitPlayer = 2.5f;
     [SerializeField] private Transform Camera;
     [SerializeField] private Transform PlayerModel;
-    [SerializeField] private float Stamina = 100f;
+    private float Stamina = 100f;
     private Rigidbody RigidbodyPlayer;
     private bool CheckGround;
     private CapsuleCollider PlayerCollider;
